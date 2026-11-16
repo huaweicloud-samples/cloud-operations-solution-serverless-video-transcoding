@@ -1,0 +1,15 @@
+{
+  "name": "saas-helpers",
+  "version": "1.0.0",
+  "description": "Collection of helpers to hide tenant context for multi-tenant SaaS",
+  "license": "MIT",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^4.17.0",
+    "njwt": "^1.0.0",
+    "esdk-obs-nodejs": "^3.24.3"
+  }
+}
