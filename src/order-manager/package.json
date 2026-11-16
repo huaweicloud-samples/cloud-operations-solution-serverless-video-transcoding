@@ -1,0 +1,15 @@
+{
+  "name": "order-manager",
+  "version": "1.0.0",
+  "description": "Order CRUD handler for multi-tenant SaaS",
+  "main": "order-manager.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "^4.17.0",
+    "njwt": "^1.0.0",
+    "esdk-obs-nodejs": "^3.24.3"
+  }
+}

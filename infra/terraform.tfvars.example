@@ -1,0 +1,15 @@
+# 非敏感变量示例（复制为 terraform.tfvars 后填写真实值）
+# 敏感变量（AK/SK、口令）通过 TF_VAR_* 环境变量传递，不要写入本文件
+region         = "cn-north-4"
+project_id     = "<your-project-id>"
+region         = "<your-region>"
+availability_zone         = "<your-availability_zone>"
+vpc_cidr         = "<your-vpc_cidr>"
+subnet_cidr         = "<your-subnet_cidr>"
+dds_flavor         = "<your-dds_flavor>"
+dds_password         = "<your-dds_password>"
+dds_storage         = "<your-dds_storage>"
+function_memory         = "<your-function_memory>"
+function_timeout         = "<your-function_timeout>"
+function_runtime         = "<your-function_runtime>"
+name_prefix         = "<your-name_prefix>"
